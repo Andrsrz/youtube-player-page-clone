@@ -100,4 +100,19 @@ html, body {
 
 #site-main-video-recomendations {
 	grid-area: recomendations;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.recomendation {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.recomendation-infor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
