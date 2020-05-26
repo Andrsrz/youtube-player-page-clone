@@ -38,6 +38,10 @@ html, body {
 	width: 50%;
 }
 
+#search-bar {
+	margin-top: 8px;
+}
+
 #site-main-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
