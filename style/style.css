@@ -31,3 +31,26 @@ html, body {
 #site-header-search-bar {
 	width: 50%;
 }
+
+#site-main-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 110px;
+	grid-template-areas:
+		"main main main main"
+		"comments comments comments recomendations";
+	width: 100vw;
+	height: 100vh;
+}
+
+#site-main-video-player {
+	grid-area: main;
+}
+
+#site-main-video-comments {
+	grid-area: comments;
+}
+
+#site-main-video-recomendations {
+	grid-area: recomendations;
+}
