@@ -35,9 +35,10 @@ html, body {
 #site-main-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1fr 110px;
+	grid-template-rows: 1fr 100px 110px;
 	grid-template-areas:
 		"main main main main"
+		"info info info recomendations"
 		"comments comments comments recomendations";
 	width: 100vw;
 	height: 100vh;
@@ -45,6 +46,10 @@ html, body {
 
 #site-main-video-player {
 	grid-area: main;
+}
+
+#site-main-video-info {
+	grid-area: info;
 }
 
 #site-main-video-comments {
