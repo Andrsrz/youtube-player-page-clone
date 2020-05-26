@@ -53,6 +53,7 @@ html, body {
 .icon {
 	font-size: 30px;
 	color: #000;
+	cursor: pointer;
 }
 
 #site-main-video-player {
