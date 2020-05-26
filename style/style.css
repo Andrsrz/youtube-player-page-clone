@@ -55,7 +55,7 @@ html, body {
 }
 
 .icon {
-	font-size: 30px;
+	font-size: 25px;
 	color: #000;
 	cursor: pointer;
 }
@@ -66,6 +66,32 @@ html, body {
 
 #site-main-video-info {
 	grid-area: info;
+	display: flex;
+	flex-direction: column;
+}
+
+#video-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#channel-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#channel-info-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#channel-info-name {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #site-main-video-comments {
