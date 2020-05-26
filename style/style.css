@@ -20,3 +20,14 @@ html, body {
 	display: flex;
 	flex-direction: column;
 }
+
+#site-header-container {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#site-header-search-bar {
+	width: 50%;
+}
